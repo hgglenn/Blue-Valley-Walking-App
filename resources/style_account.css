@@ -1,0 +1,90 @@
+a:link, a:visited, a:hover, a:active{
+  color:white;
+  text-decoration:none;
+}
+
+body{
+  background:url(pink.jpg);
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    text-align: center;
+    font-size: 75px;
+  
+}
+.text-box h1{
+    font-size: 62px;
+    padding-top: 300px;
+}
+
+.Buttons{
+  text-align: center;
+  padding-top: 340px;
+
+}
+    
+.Leaderboard_button{
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 22px 44px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.Leaderboard_button:hover{
+    border: 1px solid #4bc0dd;
+    background: #4bc0dd;
+    transition: 0.5s;
+}
+.message_button{
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 22px 44px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.message_button:hover{
+    border: 1px solid #4bc0dd;
+    background: #4bc0dd;
+    transition: 0.5s;
+}
+
+.Start_Walk{
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 22px 44px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.Start_Walk:hover{
+    border: 1px solid #4bc0dd;
+    background: #4bc0dd;
+    transition: 0.5s;
+}

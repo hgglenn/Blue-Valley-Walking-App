@@ -1,0 +1,30 @@
+.navbar-custom {
+    background-color: rgb(160, 195, 255);
+    color: darkgray;
+    height: auto;
+    min-height: 80px;
+}
+
+.navbar {
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.navbar a{
+    border: 3px solid green;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.navbar-brand {
+
+}
+
+.navbar-text {
+    
+}
+
+.navbar-right a{
+    color: white;
+}
